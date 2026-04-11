@@ -1,0 +1,13 @@
+#### 
+
+POST http://localhost:5000/api/userInfo/create
+Content-Type: application/json
+
+{
+    "name": "test8",
+    "age": 19,
+    "salary": 5000,
+    "country": "Nepal",
+    "city": "kathmandu",
+    "status": "single"
+}
