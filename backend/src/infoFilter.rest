@@ -1,0 +1,38 @@
+# filter by name
+GET http://localhost:5000/api/userInfo/filter?name=test1
+
+###
+# filter by city
+GET http://localhost:5000/api/userInfo/filter?city=jhapa
+
+
+###
+# filter by exact age
+GET http://localhost:5000/api/userInfo/filter?age=23
+
+
+
+###
+# filter by age range
+GET http://localhost:5000/api/userInfo/filter?minAge=18&maxAge=30
+
+
+###
+# filter by exact salary
+GET http://localhost:5000/api/userInfo/filter?salary=5000
+
+###
+# filter by salary range
+GET http://localhost:5000/api/userInfo/filter?minSalary=3000&maxSalary=6000
+
+
+
+###
+# filter by country and status
+GET http://localhost:5000/api/userInfo/filter?country=Nepal&status=married
+
+
+
+####
+# combine everything
+GET http://localhost:5000/api/userInfo/filter?city=jhapa&minAge=18&maxAge=30&minSalary=3000&maxSalary=6000

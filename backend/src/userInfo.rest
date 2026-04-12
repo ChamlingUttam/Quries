@@ -1,5 +1,5 @@
 #### 
-
+##to create the user
 POST http://localhost:5000/api/userInfo/create
 Content-Type: application/json
 
@@ -11,3 +11,9 @@ Content-Type: application/json
     "city": "kathmandu",
     "status": "single"
 }
+
+
+
+###
+## to get the userInfo 
+ GET http://localhost:5000/api/userInfo/get
